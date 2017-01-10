@@ -15,15 +15,23 @@
             </div>
             <div class="nav">
                 <nav>
-                    <a class="active" href="/html/">Home</a>
-                    <a href="/css/">About</a>
-                    <a href="/js/">Services</a>
-                    <a href="/jquery/">Pricing</a>
-                    <a href="/jquery/">Contact</a>
-                    <a href="/jquery/">Dropdown</a>
+                    <a class="active" href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Dropdown</a>
                 </nav>
             </div>
         </header>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script>
+    $("nav a").click(function(){
+    $( "nav a" ).not($( this )).removeClass( "active" );
+    $(this).toggleClass("active")
+    })
+    </script>
+        
 </body>
 </html>
