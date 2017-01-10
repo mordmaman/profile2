@@ -3,7 +3,7 @@ body, html {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  font-family: 'Graduate', cursive; }
+  font-family: 'Graduate', sans-serif; }
 
 .container {
   margin: 0 auto;
@@ -17,9 +17,20 @@ header {
   height: 100px;
   line-height: 100px; }
   header .name {
+    display: inline-block;
     margin-left: 50px; }
+  header h1 {
+    margin: 0px; }
   header .greenWord {
     color: #93DFB8; }
+  header .nav {
+    float: right;
+    margin-right: 50px; }
+    header .nav nav a {
+      margin-left: 10px;
+      font-size: 16px;
+      color: black;
+      text-decoration: none; }
 
 @media screen and (max-width: 700px) {
   .container {
