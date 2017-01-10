@@ -37,14 +37,19 @@ header{
     }
     .nav{
         float: right;
-        margin-right: 50px;
 
         nav a{
-        margin-left: 10px;
         font-size: 16px;
         color: black;
         text-decoration: none;
+        padding: 38px 10px;
         }
+
+        .active{
+            border-top: 5px solid $green;
+            color: $green;
+        }
+
     }
     }
     
@@ -53,4 +58,40 @@ header{
     .container{
         width: 100%;
     }
+    header{
+        text-align: center;
+        height: 120px;
+        line-height: 50px;
+        .name{
+            margin-left: 0px;
+        }
+        .nav{
+            float: none;
+
+            nav a{
+                padding: 0 10px;
+            }
+
+            .active{
+            color: black;
+            border-top: none;
+            }
+        }
+        
+    }
 }
+
+@media screen and (max-width: 558px) {
+    header{
+        height: 170px;
+        line-height: 50px;
+            }
+}
+        
+@media screen and (max-width: 301px) {
+    header{
+        height: 210px;
+        line-height: 50px;
+            }
+}
+

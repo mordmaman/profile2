@@ -24,16 +24,40 @@ header {
   header .greenWord {
     color: #93DFB8; }
   header .nav {
-    float: right;
-    margin-right: 50px; }
+    float: right; }
     header .nav nav a {
-      margin-left: 10px;
       font-size: 16px;
       color: black;
-      text-decoration: none; }
+      text-decoration: none;
+      padding: 38px 10px; }
+    header .nav .active {
+      border-top: 5px solid #93DFB8;
+      color: #93DFB8; }
 
 @media screen and (max-width: 700px) {
   .container {
-    width: 100%; } }
+    width: 100%; }
+
+  header {
+    text-align: center;
+    height: 120px;
+    line-height: 50px; }
+    header .name {
+      margin-left: 0px; }
+    header .nav {
+      float: none; }
+      header .nav nav a {
+        padding: 0 10px; }
+      header .nav .active {
+        color: black;
+        border-top: none; } }
+@media screen and (max-width: 558px) {
+  header {
+    height: 170px;
+    line-height: 50px; } }
+@media screen and (max-width: 301px) {
+  header {
+    height: 210px;
+    line-height: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */
