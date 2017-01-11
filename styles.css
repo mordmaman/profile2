@@ -70,7 +70,8 @@ header {
 ****************************************/
 .sec3 {
   margin: 0 auto 45px auto;
-  width: 75%; }
+  width: 75%;
+  text-align: center; }
   .sec3 .iconInfo {
     width: 33%;
     display: inline-block; }
@@ -91,7 +92,11 @@ header {
         padding: 0 10px; }
       header .nav .active {
         color: black;
-        border-top: none; } }
+        border-top: none; }
+
+  .sec3 .iconInfo {
+    width: 100%;
+    display: block; } }
 @media screen and (max-width: 558px) {
   header {
     height: 170px;

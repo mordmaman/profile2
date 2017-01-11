@@ -99,6 +99,7 @@ header{
 .sec3{
     margin: 0 auto 45px auto;
     width: 75%;
+    text-align: center;
     .iconInfo{
         width:33%;
         display: inline-block;
@@ -130,6 +131,10 @@ header{
             }
         }
         
+    }
+    .sec3 .iconInfo{
+        width:100%;
+        display: block;
     }
 }
 
