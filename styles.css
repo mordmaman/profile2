@@ -43,6 +43,28 @@ header {
 .bxslider {
   margin: 0; }
 
+/****************************************
+*****Block Quote*************************
+****************************************/
+.sec2 {
+  margin: 0 auto;
+  width: 75%;
+  background-color: #FFC8BA;
+  border-left: 5px solid #E3AAD6; }
+  .sec2 .well {
+    padding: 10px; }
+    .sec2 .well .button {
+      background-color: #93DFB8;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer; }
+
 @media screen and (max-width: 700px) {
   .container {
     width: 100%; }
