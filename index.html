@@ -5,6 +5,10 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <script src="scripts.js"></script>
     
 </head>
 <body>
@@ -19,13 +23,21 @@
                     <a href="#">About</a>
                     <a href="#">Services</a>
                     <a href="#">Pricing</a>
-                    <a href="#">Contact</a>
+                    <a href="#">Contact</a>  
                     <a href="#">Dropdown</a>
                 </nav>
             </div>
         </header>
+        <section>   
+            <ul class="bxslider">
+                <li><img src="1.jpg" /></li>
+                <li><img src="2.jpg" /></li>
+                <li><img src="3.jpg" /></li>
+                <li><img src="4.jpg" /></li>
+            </ul>
+        </section>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
     <script>
     $("nav a").click(function(){
     $( "nav a" ).not($( this )).removeClass( "active" );
