@@ -11,6 +11,9 @@ body, html {
   height: 100%;
   background-color: #B5D8EB; }
 
+/****************************************
+*****HEADER******************************
+****************************************/
 header {
   background-color: #E3AAD6;
   width: 100%;
@@ -33,6 +36,12 @@ header {
     header .nav .active {
       border-top: 5px solid #93DFB8;
       color: #93DFB8; }
+
+/****************************************
+*****SLIDER******************************
+****************************************/
+.bxslider {
+  margin: 0; }
 
 @media screen and (max-width: 700px) {
   .container {
