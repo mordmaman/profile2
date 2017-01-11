@@ -100,12 +100,12 @@ header{
     margin: 0 auto 45px auto;
     width: 75%;
     text-align: center;
+    background-color: $blue;
     .iconInfo{
         width:33%;
         display: inline-block;
     }
 }
-
 
 @media screen and (max-width: 700px) {
     .container{
