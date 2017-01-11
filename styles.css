@@ -8,7 +8,7 @@ body, html {
 .container {
   margin: 0 auto;
   width: 940px;
-  height: auto;
+  height: 100%;
   background-color: #B5D8EB; }
 
 /****************************************
@@ -47,7 +47,7 @@ header {
 *****Block Quote*************************
 ****************************************/
 .sec2 {
-  margin: 0 auto;
+  margin: 0 auto 45px auto;
   width: 75%;
   background-color: #FFC8BA;
   border-left: 5px solid #E3AAD6; }
@@ -64,6 +64,16 @@ header {
       display: inline-block;
       font-size: 14px;
       cursor: pointer; }
+
+/****************************************
+******Section3***************************
+****************************************/
+.sec3 {
+  margin: 0 auto 45px auto;
+  width: 75%; }
+  .sec3 .iconInfo {
+    width: 33%;
+    display: inline-block; }
 
 @media screen and (max-width: 700px) {
   .container {
