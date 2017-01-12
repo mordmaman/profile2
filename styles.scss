@@ -120,9 +120,19 @@ header{
 
 .section4{
    padding-bottom: 45px;
+   width: 75%;
+    margin: 0 auto;
 }
 
+.browserBlock{
+    width: 50%;
+    display: inline-block;
+}
 
+.icon{
+        width: 20%;
+        float: left;
+    }
 
 @media screen and (max-width: 700px) {
     .container{
