@@ -86,9 +86,8 @@ header {
         text-decoration: none;
         color: black; }
 
-.scroll-text {
-  height: 50px;
-  overflow: hidden; }
+.section4 {
+  padding-bottom: 45px; }
 
 @media screen and (max-width: 700px) {
   .container {
