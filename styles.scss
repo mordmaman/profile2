@@ -119,20 +119,30 @@ header{
 }
 
 .section4{
-   padding-bottom: 45px;
    width: 75%;
-    margin: 0 auto;
+    margin: 45px auto 0 auto;
+    padding-bottom: 45px;
 }
 
 .browserBlock{
     width: 50%;
+    line-height: 24px;
     display: inline-block;
+    margin-bottom: 25px;
 }
 
 .icon{
-        width: 20%;
-        float: left;
+        display: inline-block;
+        margin-right: 20px;
     }
+
+.bt {
+    display: inline-block;
+}
+
+.browserText{
+    font-size: 24px;
+}
 
 @media screen and (max-width: 700px) {
     .container{
@@ -164,6 +174,14 @@ header{
         display: block;
         margin-bottom: 25px;
     }
+
+    .browserBlock{
+            width: 50%;
+            margin-left: 25%;
+            display: block;
+            text-align: center;
+            margin-bottom: 40px;
+        }
 }
 
 @media screen and (max-width: 558px) {
