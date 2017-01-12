@@ -69,13 +69,19 @@ header {
 ******Section3***************************
 ****************************************/
 .sec3 {
-  margin: 0 auto 45px auto;
-  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 45px;
+  width: 100%;
   text-align: center;
   background-color: #B5D8EB; }
-  .sec3 .iconInfo {
-    width: 33%;
-    display: inline-block; }
+  .sec3 .section3 {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    background-color: #B5D8EB; }
+    .sec3 .section3 .iconInfo {
+      width: 33%;
+      display: inline-block; }
 
 @media screen and (max-width: 700px) {
   .container {
