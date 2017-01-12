@@ -110,6 +110,10 @@ header{
             .iconInfo{
                 width:33%;
                 display: inline-block;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
             }
     }
 }
