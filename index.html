@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="jquery.bxslider.min.js"></script>
     <link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
+    <script src="jquery.scrollbox.js"></script>
     <script src="scripts.js"></script>
 
 </head>
@@ -80,13 +81,28 @@
                     </div>
                 </div>
         </section>
+        <section>
+            <div id="demo" class="scroll-text">
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+            </div>
+        </section>
     </div>
 
     <script>
     $("nav a").click(function(){
     $( "nav a" ).not($( this )).removeClass( "active" );
     $(this).toggleClass("active")
-    })
+    });
     </script>
 
 </body>
