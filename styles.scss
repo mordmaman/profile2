@@ -102,16 +102,16 @@ header{
     width: 100%;
     text-align: center;
     background-color: $blue;
-    .section3{
-    margin: 0 auto;
-    width:75%;
-    text-align: center;
-    background-color: $blue;
-    .iconInfo{
-        width:33%;
-        display: inline-block;
+        .section3{
+        margin: 0 auto;
+        width:75%;
+        text-align: center;
+        background-color: $blue;
+            .iconInfo{
+                width:33%;
+                display: inline-block;
+            }
     }
-}
 }
 
 
@@ -143,9 +143,10 @@ header{
         }
         
     }
-    .sec3 .iconInfo{
+    .sec3 .section3 .iconInfo{
         width:100%;
         display: block;
+        margin-bottom: 25px;
     }
 }
 

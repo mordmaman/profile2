@@ -101,9 +101,10 @@ header {
         color: black;
         border-top: none; }
 
-  .sec3 .iconInfo {
+  .sec3 .section3 .iconInfo {
     width: 100%;
-    display: block; } }
+    display: block;
+    margin-bottom: 25px; } }
 @media screen and (max-width: 558px) {
   header {
     height: 170px;
