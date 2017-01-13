@@ -149,19 +149,25 @@ header{
     height: 50px;
     background-color:$melon;
     .h3div{
-        
+        line-height: 50px;
+        margin-left: 25px;
         display: inline-block;
     }
     .sec5Name{
         font-size: 25px;
         display: inline-block;
     }
-    nav{
+    .navDiv{
         display: inline-block;
-         ul li{
-            display: inline-block;
+        ul{
+            margin: 0;
+            li{
+                display: inline-block;
+            }
         }
+        
     }
+         
     
 }
 

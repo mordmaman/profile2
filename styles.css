@@ -112,14 +112,18 @@ header {
   height: 50px;
   background-color: #FFC8BA; }
   .section5 .h3div {
+    line-height: 50px;
+    margin-left: 25px;
     display: inline-block; }
   .section5 .sec5Name {
     font-size: 25px;
     display: inline-block; }
-  .section5 nav {
+  .section5 .navDiv {
     display: inline-block; }
-    .section5 nav ul li {
-      display: inline-block; }
+    .section5 .navDiv ul {
+      margin: 0; }
+      .section5 .navDiv ul li {
+        display: inline-block; }
 
 @media screen and (max-width: 700px) {
   .container {
