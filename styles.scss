@@ -11,6 +11,7 @@ $green : #93DFB8;
 $purple: #E3AAD6;
 $blue: #B5D8EB;
 $melon: #FFC8BA;
+$pink: #FFBDD8;
 $myMargin: 0 auto; 
 
 
@@ -171,8 +172,10 @@ header{
         margin-right: 25px;
         float: right;
     } 
-         
-    
+}
+
+footer{
+    width:100%;
 }
 
 @media screen and (max-width: 700px) {
@@ -213,6 +216,9 @@ header{
             text-align: center;
             margin-bottom: 40px;
         }
+    .section5{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 558px) {
