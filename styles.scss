@@ -144,6 +144,27 @@ header{
     font-size: 24px;
 }
 
+.section5{
+    width:100%;
+    height: 50px;
+    background-color:$melon;
+    .h3div{
+        
+        display: inline-block;
+    }
+    .sec5Name{
+        font-size: 25px;
+        display: inline-block;
+    }
+    nav{
+        display: inline-block;
+         ul li{
+            display: inline-block;
+        }
+    }
+    
+}
+
 @media screen and (max-width: 700px) {
     .container{
         width: 100%;
