@@ -178,6 +178,7 @@ footer{
     width:100%;
     background-color: $pink;
     .aboutUs{
+        display: inline-block;
         width: 25%;
         padding-top: 25px;
         margin-left: 25px;
@@ -236,7 +237,15 @@ footer{
     .section5{
         display: none;
     }
+    footer{
+        .aboutUs{
+        width: 95%;
+        margin: 0 25px;
+        display: block;
+            }
+        }
 }
+    
 
 @media screen and (max-width: 558px) {
     header{

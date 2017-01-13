@@ -133,6 +133,7 @@ footer {
   width: 100%;
   background-color: #FFBDD8; }
   footer .aboutUs {
+    display: inline-block;
     width: 25%;
     padding-top: 25px;
     margin-left: 25px; }
@@ -176,7 +177,12 @@ footer {
     margin-bottom: 40px; }
 
   .section5 {
-    display: none; } }
+    display: none; }
+
+  footer .aboutUs {
+    width: 95%;
+    margin: 0 25px;
+    display: block; } }
 @media screen and (max-width: 558px) {
   header {
     height: 170px;
