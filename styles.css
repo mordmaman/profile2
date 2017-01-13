@@ -130,7 +130,20 @@ header {
     float: right; }
 
 footer {
-  width: 100%; }
+  width: 100%;
+  background-color: #FFBDD8; }
+  footer .aboutUs {
+    width: 25%;
+    padding-top: 25px;
+    margin-left: 25px; }
+    footer .aboutUs .auHeader {
+      display: block; }
+    footer .aboutUs .auTextDiv {
+      margin: 25px 0 0 0;
+      padding-bottom: 25px; }
+    footer .aboutUs .auText {
+      padding-top: 25px;
+      font-size: 14px; }
 
 @media screen and (max-width: 700px) {
   .container {
