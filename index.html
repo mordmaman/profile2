@@ -128,7 +128,7 @@
                         <li>Mord</li>
                     </ul>
             </div>
-            <div class="upDiv">
+            <div class="upDiv  back-to-top">
                 <i class="fa fa-arrow-up" aria-hidden="true"></i>
             </div>
         </section>
@@ -139,6 +139,10 @@
     $( "nav a" ).not($( this )).removeClass( "active" );
     $(this).toggleClass("active")
     });
+    $(".back-to-top").click(function(){
+        var duration = 300;
+        $("html, body").animate({scrollTop: 0}, duration);
+    })
     </script>
 
 </body>
