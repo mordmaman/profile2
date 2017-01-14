@@ -173,6 +173,14 @@ footer {
         footer .rightPanel .follow .socialIcons .socialList li {
           display: inline;
           margin: 10px; }
+          footer .rightPanel .follow .socialIcons .socialList li .fa-facebook-square:hover {
+            color: #3b5998; }
+          footer .rightPanel .follow .socialIcons .socialList li .fa-twitter-square:hover {
+            color: #00aced; }
+          footer .rightPanel .follow .socialIcons .socialList li .fa-instagram:hover {
+            color: #8a3ab9; }
+          footer .rightPanel .follow .socialIcons .socialList li .fa-snapchat-square:hover {
+            color: #fffc00; }
 
 @media screen and (max-width: 700px) {
   .container {
@@ -223,7 +231,10 @@ footer {
         width: 50px;
         height: 50px;
         margin-right: 10px;
-        margin-bottom: 10px; } }
+        margin-bottom: 10px; }
+  footer .rightPanel {
+    display: block;
+    width: 95%; } }
 @media screen and (max-width: 558px) {
   header {
     height: 170px;

@@ -226,6 +226,18 @@ footer{
                         li{
                             display: inline;
                             margin: 10px;
+                            .fa-facebook-square:hover{
+                                color: #3b5998
+                            }
+                            .fa-twitter-square:hover{
+                                color: #00aced;
+                            }
+                            .fa-instagram:hover{
+                                color: #8a3ab9;
+                            }
+                            .fa-snapchat-square:hover{
+                                color: #fffc00;
+                            }
                         }
                     }
                 }
@@ -295,6 +307,10 @@ footer{
                     margin-bottom: 10px;
                 }
             }
+        }
+        .rightPanel{
+            display: block;
+            width: 95%;
         }
     }
 }
