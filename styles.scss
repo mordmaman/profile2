@@ -217,8 +217,18 @@ footer{
         vertical-align: top;
         .follow{
             padding-top: 25px;
-        margin-left: 25px;
+            margin-left: 25px;
             width:100%;
+            .socialIcons{
+                .socialList {
+                    list-style-type: none;
+                    padding-left: 0px;
+                        li{
+                            display: inline;
+                            margin: 10px;
+                        }
+                    }
+                }
         }
     }
 }
