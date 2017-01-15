@@ -181,6 +181,11 @@ footer {
             color: #8a3ab9; }
           footer .rightPanel .follow .socialIcons .socialList li .fa-snapchat-square:hover {
             color: #fffc00; }
+    footer .rightPanel .newsletter {
+      margin-left: 25px;
+      width: 100%; }
+      footer .rightPanel .newsletter .nlTextDiv {
+        padding-top: 10px; }
 
 @media screen and (max-width: 700px) {
   .container {
