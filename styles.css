@@ -183,9 +183,21 @@ footer {
             color: #fffc00; }
     footer .rightPanel .newsletter {
       margin-left: 25px;
-      width: 100%; }
+      width: 100%;
+      padding-bottom: 45px; }
       footer .rightPanel .newsletter .nlTextDiv {
         padding-top: 10px; }
+        footer .rightPanel .newsletter .nlTextDiv .nlText {
+          padding-top: 25px;
+          font-size: 10px; }
+      footer .rightPanel .newsletter .formDiv {
+        margin-top: 20px; }
+        footer .rightPanel .newsletter .formDiv .formInput {
+          width: 60%;
+          padding: 10px 9px; }
+        footer .rightPanel .newsletter .formDiv .formSubmit {
+          padding: 10px;
+          margin-left: -6px; }
 
 @media screen and (max-width: 700px) {
   .container {
@@ -239,7 +251,9 @@ footer {
         margin-bottom: 10px; }
   footer .rightPanel {
     display: block;
-    width: 95%; } }
+    width: 95%; }
+    footer .rightPanel .newsletter {
+      margin-top: 25px; } }
 @media screen and (max-width: 558px) {
   header {
     height: 170px;

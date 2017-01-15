@@ -245,9 +245,26 @@ footer{
         .newsletter{
             margin-left: 25px;
             width:100%;
+            padding-bottom: 45px;
             .nlTextDiv{
                 padding-top: 10px;
+                .nlText{ 
+                    padding-top:25px;
+                    font-size: 10px;
+                }
             }
+            .formDiv{
+                margin-top: 20px;
+                .formInput{
+                    width: 60%;
+                    padding: 10px 9px;
+                }
+                .formSubmit{
+                    padding: 10px;
+                    margin-left: -6px;
+                }
+            }
+            
         }
     }
 }
@@ -318,6 +335,9 @@ footer{
         .rightPanel{
             display: block;
             width: 95%;
+            .newsletter{
+                margin-top: 25px;
+            }
         }
     }
 }
